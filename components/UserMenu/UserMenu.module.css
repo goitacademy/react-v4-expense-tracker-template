@@ -1,0 +1,18 @@
+/* Користувач: email і LogoutButton; гість: Log in (buttonGhost) і Sign up (buttonPrimary) */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.email {
+  padding: 0 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+/* Fallback у <Suspense>: приблизно резервує місце, щоб хедер менше стрибав */
+.placeholder {
+  width: 200px;
+  height: 44px;
+}

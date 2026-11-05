@@ -1,0 +1,9 @@
+/* <div className={styles.wrapper} data-theme={theme}> усередині <body>.
+   Обгортка займає всю висоту й має свій фон, тому світлий фон body не видно. */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
