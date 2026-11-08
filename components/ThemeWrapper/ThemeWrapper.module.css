@@ -1,5 +1,5 @@
-/* <div className={styles.wrapper} data-theme={theme}> усередині <body>.
-   Обгортка займає всю висоту й має свій фон, тому світлий фон body не видно. */
+/* Обгортка всередині <body> навколо Header, <main> і Footer:
+   займає всю висоту сторінки й має фон теми. */
 .wrapper {
   display: flex;
   flex-direction: column;
