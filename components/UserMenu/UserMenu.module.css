@@ -10,9 +10,3 @@
   font-size: 14px;
   color: var(--color-text-secondary);
 }
-
-/* Fallback у <Suspense>: приблизно резервує місце, щоб хедер менше стрибав */
-.placeholder {
-  width: 200px;
-  height: 44px;
-}

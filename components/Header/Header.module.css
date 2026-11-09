@@ -59,3 +59,9 @@
   gap: 8px;
   margin-left: auto;
 }
+
+/* UserMenu у fallback <Suspense>: приблизно резервує місце, щоб хедер менше стрибав */
+.userMenuFallback {
+  width: 200px;
+  height: 44px;
+}
